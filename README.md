@@ -1,15 +1,16 @@
-# Testando git da minha  máquina virtual
+<h1> Testando git por linha de comando na máquina virtual UBUNTU <h1/>
 
-Criei a minha pasta e colei o passo a passo do github
+<h2> Criei a minha pasta e colei o passo a passo do github: <h2/>
+
+<h3>
+echo "# Adicionando README no novo diretório" >> README.md <br/>
+git init <br/>
+git add README.md <br/>
+git add README.md <br/>
+git commit -m "first commit" <br/>
+git branch -M main <br/>
+git remote add origin (url ssh do seu diretório) <br/>
+git push -u origin main <h3/><p/>
 
 
-echo "# test2" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:brunasiqueira3103/teste2.git
-git push -u origin main
 
-
-agora estou testando as alterações.
