@@ -44,10 +44,12 @@ rm -rf>> remove diretórios (não vazios)  <br/>  <br/>
 <h3> >>>>>>> DAR SENHA PARA O ROOT (UBUNTU)</h3>
 1- sudo passwd root   <br/>
 2- digitar a senha do seu usuário  <br/>
-3 4- digitar a nosa senha do root  <br/>
-logar com o root 5- su  <br/>
+3 4- digitar senha do root  <br/>
+logar com o root: <br/>
+5- su  <br/>
 6- por a senha root (ja estará com o root@usuario#)  <br/>
-sair do usuario root para o seu 7- su nomedousuario  <br/>  <br/>
+sair do usuario root para o seu: <br/>
+7- su nomedousuario  <br/>  <br/>
 
 acesso root por ssh  <br/>
 editar aquivo de permissão: sudo nano /etc/ssh/sshd_config  <br/>
