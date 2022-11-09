@@ -1,16 +1,19 @@
-<h1> Testando git por linha de comando na máquina virtual UBUNTU <h1/>
-
-<h2> Criei a minha pasta e colei o passo a passo do github: <h2/>
-
+<h1> Arquivos que criei estudando intrudução a Linux Server <h1/>
 <h3>
-echo "# Adicionando README no novo diretório" >> README.md <br/>
-git init <br/>
-git add README.md <br/>
-git add README.md <br/>
-git commit -m "first commit" <br/>
-git branch -M main <br/>
-git remote add origin (url ssh do seu diretório) <br/>
-git push -u origin main <h3/><p/>
 
+Na pasta resumo estão arquivos criados durante as aulas, espero que seja util! :upside_down_face: <br/>
+- Instalação <br/>
+- Comandos básicos <br/>
+- Manipulação de arquivos e diretórios <br/>
+
+Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões <br/>
+https://github.com/brunasiqueira3103/Linux-IaC-projeto-01 <br/>
+
+
+Infraestrutura como Código: Script de Provisionamento de um Servidor Web (Apache) <br/>
+https://github.com/brunasiqueira3103/Linux-IaC-projeto-02 <br/>
+<h3/><p/>
+
+![image](https://user-images.githubusercontent.com/104859742/200938127-f4b2c822-5fe0-4936-9ffe-0a6d4fe1f18f.png)
 
 
