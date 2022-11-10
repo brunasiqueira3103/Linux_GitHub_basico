@@ -42,7 +42,12 @@ Na pasta que você quer clonar seu repositório dê os comandos do passo a passo
 
 Aqui eu personalizei o meu hehehe
  <br/><br/>
+ 
+ 
+git config --global user.email "seu@email"
+git config --global user.name "usuariogithub"
 
+git init
 git add REDME.md     --->(NOME DO SEU ARQUIVO, OU PARA TODOS BASTA POR UM .) <br/>
 git commit -m "SUA MENSAGEM DE COMMIT" <br/>
 git branch -M main <br/>
