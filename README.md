@@ -2,7 +2,7 @@
 <h3>
 
 Na pasta resumo estão arquivos criados durante as aulas, espero que seja util! :upside_down_face: <br/>
-- Instalação <br/>
+- Instalação GitHub <br/>
 - Comandos básicos <br/>
 - Manipulação de arquivos e diretórios <br/>
 
