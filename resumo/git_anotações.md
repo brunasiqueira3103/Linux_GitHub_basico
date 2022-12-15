@@ -1,6 +1,6 @@
 <h1> PROCESSO: </h1>
 <li> 0- instalar o git na sua máquina (local ou virtual p.r.e.c.i.s.a, em cada máquina, sem choro!:sob:) </li> <br/>
-<li> 1- gerar par de chaves (publica-privada) pelo terminal  </li> <br/>
+<li> 1- gerar par de chaves (publica-privada) pelo terminal  (gere e guarde, pode ser em um repositório privado ex.) </li> <br/>
 <li> 2- adicionar no github (chave publica) no web site do github   </li> <br/>
 <li> 3- iniciar o SSH agent via terminal e fazer autenticação com a chave privada  </li> <br/>
 <li> 4- usar o GIT/GITHUB localmente xuxuzinhos (bora lá)  </li> <br/><br/>
@@ -32,23 +32,23 @@ vá ate sua foto perfil, settings (https://github.com/settings/keys)
 eval $(ssh-agent -s) ------> vai dar uma mensagem de agent pid **** algum numero ok) <br/>
 ssh-add chaveprivada ----> (importante estar na pasta da chave, facilita, caso não passe o caminho da chave), <br/>
 >>vai pedir a senha, se a autenticação der certo deve aparecer a seguinte mensagem: <br/>
-Identity added: id_ed25519 (seuemaildogithub) <br/>
+Identity added: id_ed25519 (seuemaildogithub) <br/><br/>
 
 protinho a autenticação foi feita, para usar o git agora lembre-se sempre de navegar para a pasta onde <br/>
 quer clonar seu repositório, eu não fiz isso, então meu repositório ficou dentro da pasta das chaves hehehe <br/>
-furada né! (NAVEGUE ATÉ A PASTA DO SEU PROJETO PARA CLONAR O REPOSITÓRIO LÁ) <br/>
+furada né! (NAVEGUE ATÉ A PASTA DO SEU PROJETO PARA CLONAR O REPOSITÓRIO LÁ) <br/><br/>
 
-Na pasta que você quer clonar seu repositório dê os comandos do passo a passo do github  <br/>
+Na pasta que você quer clonar seu repositório dê os comandos do passo a passo do github  <br/> <br/>
 
-Aqui eu personalizei o meu hehehe
- <br/><br/>
  
- 
-git config --global user.email "seu@email"
-git config --global user.name "usuariogithub"
+Esses aqui, serão sempre executados: <br/>
+git config --global user.email "seu@email" <br/>
+git config --global user.name "usuariogithub"<br/> <br/>
 
-git init
-git add REDME.md     --->(NOME DO SEU ARQUIVO, OU PARA TODOS BASTA POR UM .) <br/>
+ 1- Se deseja "subir arquivos locais para um repositório vazio no github" <br/>
+
+git init  <br/>
+git add    --->(NOME DO SEU ARQUIVO, OU PARA TODOS BASTA POR UM .) <br/>
 git commit -m "SUA MENSAGEM DE COMMIT" <br/>
 git branch -M main <br/>
 git remote add origin (O LINK DO SEU REPOSITÓRIO, VERIFICAR LINK COM SSH) <br/>
@@ -56,3 +56,20 @@ git push -u origin main <br/>
 
 <br/><br/>
 
+2- Se deseja "baixar arquivos do github para sua máquina local" <br/>
+git init (para dar inicio no git no repositório local) <br/>
+git clone  (O LINK DO SEU REPOSITÓRIO, VERIFICAR LINK COM SSH) <br/>
+
+<br/><br/>
+
+3- SEMPRE que tiver alterações locais faça o passo 1, caso as alterações estejam no github faça sempre o pull pra manter atualizado na sua máquina local.<br/>
+git pull  (baixa do github as "atualizações) <br/>
+
+<br/><br/>
+
+Eu utilizo o github desktop no minha máquina Windows, altero os arquivos pelo VScode, faço meu push (subo as alterações para o github). <br/>
+Na nos meus servidores de estudo (VirtualBox, AWS) faço o pull, e mantem sempre atualizado os scripts. <br/>
+
+<br/><br/>
+
+Espero ter te ajudado ;D <br/>
