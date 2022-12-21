@@ -20,15 +20,18 @@ Para reverter um commit no GitHub usando o CLI (interface de linha de comando), 
 
 - Abra o terminal e navegue até o diretório do seu repositório local.
 
-- Use o comando git log para ver a lista de commits no seu repositório. Anote o ID do commit que você deseja reverter.
+- Use o comando 'git log' para ver a lista de commits no seu repositório. Anote o ID do commit que você deseja reverter.
 
-- Use o comando git revert seguido do ID do commit para reverter o commit. Por exemplo: git revert abc123. Isso criará um novo commit que reverte as 
+- Use o comando 'git revert' seguido do ID do commit para reverter o commit. Por exemplo: 'git revert abc123'. Isso criará um novo commit que reverte as 
 alterações do commit original.
 
-- Envie o novo commit de reverter para o repositório. Você pode fazer isso com os comandos git push se você estiver usando o GitHub remoto ou 
-git push origin master se estiver usando outro servidor remoto.
+- Envie o novo commit de reverter para o repositório. Você pode fazer isso com os comandos 'git push' se você estiver usando o GitHub remoto ou 
+'git push origin master' se estiver usando outro servidor remoto.
 
 
 ## Observação: 
 o revert commit cria um novo commit que reverte as alterações do commit original. Isso é diferente de excluir o commit original, 
 que apagará as alterações do commit da história do repositório.
+
+
+
