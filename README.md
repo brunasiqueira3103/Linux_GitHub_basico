@@ -14,6 +14,13 @@ Infraestrutura como Código: Script de Provisionamento de um Servidor Web (Apach
 https://github.com/brunasiqueira3103/Linux-IaC-projeto-02 <br/>
 <h3/><p/>
 
+
+Comandos Linux <br/>
+https://github.com/brunasiqueira3103/Linux_GitHub_basico/blob/main/resumo/comandos_linux.md
+
+Comandos Terminal<br/>
+https://github.com/brunasiqueira3103/Linux_GitHub_basico/blob/main/comandos_basicos_Terminal.md
+
 ![image](https://user-images.githubusercontent.com/104859742/200938127-f4b2c822-5fe0-4936-9ffe-0a6d4fe1f18f.png)
 
 
