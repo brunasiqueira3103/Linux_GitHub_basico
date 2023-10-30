@@ -21,6 +21,9 @@ https://github.com/brunasiqueira3103/Linux_GitHub_basico/blob/main/resumo/comand
 Comandos Terminal<br/>
 https://github.com/brunasiqueira3103/Linux_GitHub_basico/blob/main/comandos_basicos_Terminal.md
 
+Instalar o Github e ussar chave ssh <br/>
+https://github.com/brunasiqueira3103/Linux_GitHub_basico/blob/main/resumo/git_ssh_linux_acesso.md
+
 ![image](https://user-images.githubusercontent.com/104859742/200938127-f4b2c822-5fe0-4936-9ffe-0a6d4fe1f18f.png)
 
 
