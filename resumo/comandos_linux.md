@@ -129,9 +129,10 @@ nenhuma: 0  <br/>
 
 ex:  <br/>
 chmod 750 /diretório/ ---> dono (7) grupo (5) outros (0) novas permissões para o diretório/arquivo  <br/>
-chown dono:grupo /diretório/  ---->> alterar dono e o grupo do diretório  <br/>
+chown dono:grupo /diretório/  ---->> alterar dono e o grupo do diretório  <br/><br/>
+<br/>
 
+![image](https://github.com/brunasiqueira3103/Linux_GitHub_basico/assets/104859742/e5df1a9d-7168-4482-8d13-591942d5b84c)
 
-![Linux](https://github.com/brunasiqueira3103/Linux_GitHub_basico/assets/104859742/f13d62ba-36e4-422e-8127-a1320fd9bc50)
 
 
